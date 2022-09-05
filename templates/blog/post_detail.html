@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>
+    Post Detail
+</h1>
+<div>
+    <h2>{{post.id}}.{{ post.title }}</h2>
+    <p>{{ post.description }}</p>
+    <small>{{ post.publish_date }}</small>
+</div>
+<h3>
+    <a href="{% url 'blog_list' %}">Home</a>
+</h3>
+</body>
+</html>
